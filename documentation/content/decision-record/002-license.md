@@ -1,3 +1,7 @@
+---
+icon: lucide/scale
+---
+
 <!-- markdownlint-disable MD033 -->
 
 # 002: License Selection

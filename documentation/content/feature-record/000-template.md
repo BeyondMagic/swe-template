@@ -1,3 +1,7 @@
+---
+icon: lucide/file-plus
+---
+
 <!-- markdownlint-disable MD033 -->
 
 # 000: Feature Record Template

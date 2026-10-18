@@ -1,3 +1,7 @@
+---
+icon: lucide/bot
+---
+
 <!-- markdownlint-disable MD033 -->
 
 # 008: AI Usage Policy

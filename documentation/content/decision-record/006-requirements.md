@@ -1,3 +1,7 @@
+---
+icon: lucide/list-checks
+---
+
 <!-- markdownlint-disable MD033 -->
 
 # 006: Requirements

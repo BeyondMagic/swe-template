@@ -1,3 +1,7 @@
+---
+icon: lucide/pen-tool
+---
+
 <!-- markdownlint-disable MD033 -->
 
 # 003: Writing Style

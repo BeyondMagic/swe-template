@@ -1,3 +1,7 @@
+---
+icon: lucide/book-a
+---
+
 <!-- markdownlint-disable MD033 -->
 
 # Glossary

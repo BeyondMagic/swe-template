@@ -1,3 +1,7 @@
+---
+icon: lucide/milestone
+---
+
 # Decision Record
 
 Technical, architectural, product, and design decisions, along with the reasoning behind them, are documented here.

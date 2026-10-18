@@ -1,3 +1,7 @@
+---
+icon: lucide/network
+---
+
 <!-- markdownlint-disable MD033 -->
 
 # 007: Architecture

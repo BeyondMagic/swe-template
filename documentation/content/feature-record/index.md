@@ -1,3 +1,7 @@
+---
+icon: lucide/layers
+---
+
 <!-- markdownlint-disable MD033 -->
 
 # Feature List

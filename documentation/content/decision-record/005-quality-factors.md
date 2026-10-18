@@ -1,3 +1,7 @@
+---
+icon: lucide/gauge
+---
+
 <!-- markdownlint-disable MD033 -->
 
 # 005: Quality Factors

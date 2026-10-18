@@ -1,3 +1,7 @@
+---
+icon: lucide/lightbulb
+---
+
 <!-- markdownlint-disable MD033 -->
 
 # 001: Project Idea and Scope

@@ -1,3 +1,7 @@
+---
+icon: lucide/tag
+---
+
 <!-- markdownlint-disable MD033 -->
 
 # 004: Project Name
