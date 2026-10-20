@@ -16,6 +16,15 @@ icon: lucide/tag
 
 <span class="md-typeset-planned">A project name shapes discoverability, CLI/package ergonomics, and brand identity. Choosing a clear, conflict-free name early avoids breaking changes to package identifiers, repository URLs, and namespace imports later.</span>
 
+<span class="md-typeset-planned">Funcional names are often more discoverable and easier to remember than abstract or metaphorical names, hee are a list of them:</span>
+
+<span class="md-typeset-planned">
+
+- NASA: National Aeronautics and Space Administration
+- Vocaloid: Voice + Android
+
+</span>
+
 ## Requirements and Restrictions
 
 - <span class="md-typeset-planned">**Pronounceability and Brevity:** Easy to type, pronounce, and remember.</span>
