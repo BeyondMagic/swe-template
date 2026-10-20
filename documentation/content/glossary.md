@@ -11,24 +11,98 @@ icon: lucide/book-a
 ## Documentation and Governance
 
 ### Decision Record
+<!-- zensical-glossary-aliases: ADR, ADRs, Architectural Decision Record, Decision Records -->
 
-A document that captures an architectural, product, design, operational, security, social, or strategic decision, including its context, constraints, considered alternatives, chosen approach, and consequences.
+A document capturing an architectural, product, design, operational, security, social, or strategic decision, including context, constraints, considered alternatives, chosen approach, and consequences.
 
 ### Feature Record
+<!-- zensical-glossary-aliases: Feature Records, Feature Specification, Feature Specifications -->
 
-A specification document that defines the context, benchmarks, user interaction flows, visual design, and implementation details for a user-facing or system feature.
+A specification document defining the context, benchmarks, user interaction flows, visual design, and implementation details for a user-facing or system feature.
 
 ### RFC 2119
+<!-- zensical-glossary-aliases: RFC-2119, RFC2119 -->
 
-A standard specification vocabulary where the capitalized keywords "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" carry strict requirement levels.
+A specification standard defining requirement levels for capitalized keywords: MUST, MUST NOT, REQUIRED, SHALL, SHALL NOT, SHOULD, SHOULD NOT, RECOMMENDED, MAY, and OPTIONAL.
 
 ### Conventional Commits
+<!-- zensical-glossary-aliases: Conventional Commit, conventional commit, conventional commits -->
 
-A structured commit message convention (`<type>(<scope>): <description>`) used to make version history explicit and machine-readable.
+A structured commit message convention (type(scope): description) providing explicit, machine-readable version history and automated changelog generation.
+
+### Semantic Versioning
+<!-- zensical-glossary-aliases: SemVer, Semantic Version, semantic versioning -->
+
+A software release versioning convention structured as MAJOR.MINOR.PATCH, distinguishing breaking API changes, backward-compatible features, and bug fixes.
+
+## Architecture and Modeling
+
+### Data-Flow Diagram
+<!-- zensical-glossary-aliases: DFD, DFDs, Data Flow Diagram, Data-Flow Diagrams -->
+
+A visual model tracing how data moves through a system, mapping input ingestion, functional transformations, data stores, and emitted outputs across boundaries.
+
+### Use-Case Diagram
+<!-- zensical-glossary-aliases: Use-Case Diagrams, use-case diagram, use-case diagrams, Use Case, Use Cases -->
+
+A visual model depicting interactions between external actors (users, external services) and the discrete actions or services provided by the system.
+
+### Functional Requirement
+<!-- zensical-glossary-aliases: FR, Functional Requirements, functional requirement, functional requirements -->
+
+A specification of a behavior, service, calculation, data manipulation, or specific business operation that the software system must perform.
+
+### Non-Functional Requirement
+<!-- zensical-glossary-aliases: NFR, Non-Functional Requirements, non-functional requirement, non-functional requirements -->
+
+A specification of system-wide quality constraints, including performance, security, reliability, availability, portability, and maintainability thresholds.
+
+### Quality Factor
+<!-- zensical-glossary-aliases: Quality Factors, quality factor, quality factors, Quality Attribute, Quality Attributes -->
+
+An observable, measurable software quality attribute (such as modularity, survivability, operability, or verifiability) used to evaluate design trade-offs.
+
+### Class Diagram
+<!-- zensical-glossary-aliases: Class Diagrams, class diagram, class diagrams -->
+
+A static structure diagram describing the classes, interfaces, attributes, methods, and relationships constituting an object-oriented system.
+
+### Object Diagram
+<!-- zensical-glossary-aliases: Object Diagrams, object diagram, object diagrams -->
+
+A structural diagram depicting a complete or partial snapshot of instantiated objects and their runtime relationships at a specific point in execution.
+
+## Software Licensing and Distribution
+
+### Permissive License
+<!-- zensical-glossary-aliases: permissive license, permissive licenses, Permissive Licenses -->
+
+An open-source license (such as MIT or Apache-2.0) that permits unrestricted commercial use, modification, and proprietary distribution, requiring only attribution.
+
+### Copyleft
+<!-- zensical-glossary-aliases: copyleft, Copyleft License, copyleft license, copyleft licenses -->
+
+A licensing rule (such as GPL or MPL) requiring derivative works or modifications to be distributed under equivalent license terms to preserve open access.
+
+### SPDX
+<!-- zensical-glossary-aliases: SPDX Identifier, SPDX License Identifier, Software Package Data Exchange -->
+
+A standard format and curated registry of short identifiers (such as MIT, Apache-2.0, or GPL-3.0-only) used to express software licenses unambiguously.
+
+## AI and Collaboration Guidelines
+
+### Generative AI
+<!-- zensical-glossary-aliases: GenAI, generative AI, AI tools -->
+
+Algorithms, large language models, and automated tools used to generate source code, documentation, test suites, or design artifacts under human supervision.
+
+### Meat-Proxy
+<!-- zensical-glossary-aliases: meat-proxy, meat proxy, meat-proxies -->
+
+An anti-pattern where a human blindly copy-pastes AI outputs or questions back and forth without understanding, reviewing, or taking responsibility for the content.
 
 ## Domain Terms
 
 ### Example Domain Term
 
 <span class="md-typeset-planned">Replace this entry with project-specific domain terms. Keep each definition to one or two concise sentences so tooltips remain easy to scan.</span>
-
