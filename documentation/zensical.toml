@@ -117,7 +117,7 @@ pymdownx.tilde = {}
 
 [project.markdown_extensions.zensical_glossary]
 glossary_file = "glossary.md"
-base_url = "https://beyondmagic.github.io/template/glossary/"
+base_url = "https://beyondmagic.github.io/swe-template/glossary/"
 heading_level = 3
 first_only = true
 inline_definitions = true
