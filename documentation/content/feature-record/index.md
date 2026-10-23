@@ -13,29 +13,7 @@ Specifications, interaction flows, and implementation notes for project features
 <span class="md-typeset-planned">The diagram below maps how users move through the system, from entry points to core workflows and utilities. Replace the example nodes and edges with your project's actual features:</span>
 
 ```mermaid
-flowchart TD
-    subgraph Entry["Entry & Authentication"]
-        Onboarding["001: Onboarding"]
-        Auth["002: Authentication"]
-        Onboarding -->|Setup completed| Auth
-    end
-
-    Auth -->|Authenticated| Workspace["Core Workspace"]
-
-    subgraph Core["Core Features"]
-        Workspace --- Dashboard["003: Dashboard"]
-        Workspace --- Editor["004: Primary Workflow"]
-    end
-
-    subgraph Utilities["Utilities & Settings"]
-        Search["005: Search"]
-        Notifications["006: Notifications"]
-        Settings["007: Settings"]
-    end
-
-    Workspace -->|Shortcut / Trigger| Search
-    Workspace -->|Event| Notifications
-    Workspace -->|Menu| Settings
+--8<-- "feature-record/user-flow.mmd"
 ```
 
 ## Features

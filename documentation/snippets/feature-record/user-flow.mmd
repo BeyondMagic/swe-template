@@ -1,0 +1,23 @@
+flowchart TD
+    subgraph Entry["Entry & Authentication"]
+        Onboarding["001: Onboarding"]
+        Auth["002: Authentication"]
+        Onboarding -->|Setup completed| Auth
+    end
+
+    Auth -->|Authenticated| Workspace["Core Workspace"]
+
+    subgraph Core["Core Features"]
+        Workspace --- Dashboard["003: Dashboard"]
+        Workspace --- Editor["004: Primary Workflow"]
+    end
+
+    subgraph Utilities["Utilities & Settings"]
+        Search["005: Search"]
+        Notifications["006: Notifications"]
+        Settings["007: Settings"]
+    end
+
+    Workspace -->|Shortcut / Trigger| Search
+    Workspace -->|Event| Notifications
+    Workspace -->|Menu| Settings
