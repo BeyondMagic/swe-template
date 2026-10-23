@@ -20,8 +20,9 @@ icon: lucide/tag
 
 <span class="md-typeset-planned">
 
-- NASA: National Aeronautics and Space Administration
-- Vocaloid: Voice + Android
+- [NASA](https://www.nasa.gov): National Aeronautics and Space Administration
+- [Vocaloid](https://vocaloid.com): Voice + Android
+- [WISP](https://github.com/beyondMagic/wisp): Widget Interface & Shell Platform
 
 </span>
 
