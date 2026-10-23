@@ -115,6 +115,7 @@ pymdownx.tabbed.alternate_style = true
 pymdownx.tabbed.combine_header_slug = true
 pymdownx.tasklist.custom_checkbox = true
 pymdownx.tilde = {}
+pymdownx.snippets = { base_path = "snippets" }
 
 [project.markdown_extensions.zensical_glossary]
 glossary_file = "glossary.md"

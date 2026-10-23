@@ -25,12 +25,7 @@ These measures track development cadence and code volume changes across the proj
 Measures the number of commits submitted by each contributor across successive milestones or time intervals.
 
 ```mermaid
-xychart-beta
-    title "Commits per Contributor over Timeline"
-    x-axis ["2026-Q1", "2026-Q2", "2026-Q3", "2026-Q4"]
-    y-axis "Commits" 0 --> 50
-    line [12, 24, 35, 42]
-    line [8, 15, 20, 28]
+--8<-- "commit-velocity.mmd"
 ```
 
 <span class="md-typeset-planned">Placeholder chart: replace with project-specific commit series per contributor.</span>
@@ -40,12 +35,7 @@ xychart-beta
 Measures the volume of new lines introduced by each author over the observation period. Spikes in additions often coincide with initial feature scaffolding.
 
 ```mermaid
-xychart-beta
-    title "Lines Added per Contributor over Timeline"
-    x-axis ["2026-Q1", "2026-Q2", "2026-Q3", "2026-Q4"]
-    y-axis "Lines Added" 0 --> 1000
-    line [250, 480, 720, 950]
-    line [180, 310, 520, 640]
+--8<-- "code-additions.mmd"
 ```
 
 <span class="md-typeset-planned">Placeholder chart: replace with lines added per contributor extracted from version control.</span>
@@ -55,12 +45,7 @@ xychart-beta
 Measures lines removed by each author. Consistent deletions alongside additions indicate refactoring and technical debt reduction rather than pure accretion.
 
 ```mermaid
-xychart-beta
-    title "Lines Removed per Contributor over Timeline"
-    x-axis ["2026-Q1", "2026-Q2", "2026-Q3", "2026-Q4"]
-    y-axis "Lines Removed" 0 --> 500
-    line [50, 120, 210, 340]
-    line [30, 85, 140, 190]
+--8<-- "code-deletions.mmd"
 ```
 
 <span class="md-typeset-planned">Placeholder chart: replace with lines deleted per contributor extracted from version control.</span>
@@ -74,11 +59,7 @@ This section monitors task distribution across contributors to ensure balanced o
 Measures the quantity of tasks or issue tickets assigned to each team member.
 
 ```mermaid
-xychart-beta
-    title "Issues Assigned per Contributor"
-    x-axis ["Alice", "Bob", "Charlie", "Diana"]
-    y-axis "Issues" 0 --> 25
-    bar [18, 14, 9, 6]
+--8<-- "assigned-issues.mmd"
 ```
 
 <span class="md-typeset-planned">Placeholder chart: replace with active or closed issue counts per contributor.</span>
