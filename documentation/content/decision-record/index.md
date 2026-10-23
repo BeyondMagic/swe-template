@@ -18,7 +18,7 @@ Technical, architectural, product, and design decisions, along with the reasonin
 | 005 | -          | [Quality Factors](./005-quality-factors.md)        | Architecture | Planned  |
 | 006 | -          | [Requirements](./006-requirements.md)              | Product      | Planned  |
 | 007 | -          | [Architecture](./007-architecture.md)              | Architecture | Planned  |
-| 008 | -          | [AI Usage Policy](./008-ai-usage.md)               | Social       | Proposed |
+| 008 | -          | [AI Usage Policy](./008-ai-usage.md)               | Social       | Planned  |
 | 009 | -          | [Visual Identity and UI](./009-visual-identity.md) | Design       | Planned  |
 | 010 | -          | [UX Paradigm and Flows](./010-ux-paradigm.md)      | Design       | Planned  |
 
