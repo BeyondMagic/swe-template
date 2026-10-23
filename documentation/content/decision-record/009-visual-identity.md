@@ -63,4 +63,3 @@ icon: lucide/palette
 ### Negatives
 
 - <span class="md-typeset-planned">Requires ongoing maintenance when updating assets across dark/light mode variants and marketing materials.</span>
-

@@ -46,4 +46,3 @@ icon: lucide/list-checks
 ### Negatives
 
 - <span class="md-typeset-planned">Requires keeping this record updated when core system invariants change.</span>
-

@@ -43,4 +43,3 @@ icon: lucide/scale
 ### Negatives
 
 - <span class="md-typeset-planned">Changing a license later requires consent from all copyright holders or a Contributor License Agreement (CLA).</span>
-

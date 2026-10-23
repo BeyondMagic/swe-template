@@ -49,4 +49,3 @@ icon: lucide/network
 ### Negatives
 
 - <span class="md-typeset-planned">Diagrams must be updated alongside structural refactors to prevent documentation drift.</span>
-

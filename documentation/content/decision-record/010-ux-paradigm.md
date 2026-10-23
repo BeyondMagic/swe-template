@@ -64,4 +64,3 @@ icon: lucide/workflow
 ### Negatives
 
 - <span class="md-typeset-planned">Choosing a novel paradigm requires investing in onboarding documentation, shortcut cheatsheets, and guided tours.</span>
-

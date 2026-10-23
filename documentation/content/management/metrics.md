@@ -71,4 +71,3 @@ These metrics are structured for automated generation:
 1. **Git Data Extraction:** A Python script can parse `git log --numstat` between the configured start and end dates, calculating commit counts and line diffs per author.
 2. **Deterministic Styling:** Each contributor username maps to a deterministic hex color, ensuring visual consistency across all charts.
 3. **CI Pipeline Integration:** The extraction script can run during automated documentation builds or on git commit hooks, keeping the Mermaid charts or rendered SVG artifacts up to date without manual editing.
-
