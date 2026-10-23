@@ -8,19 +8,19 @@ Technical, architectural, product, and design decisions, along with the reasonin
 
 ## Recorded Decisions
 
-| ID  | Date       | Decision                                       | Type         | Status   |
-| :-- | :--------- | :--------------------------------------------- | :----------- | :------- |
-| 000 | 2026-10-03 | [Template](./000-template.md)                  | -            | Accepted |
-| 001 | -          | [Project Idea and Scope](./001-idea.md)        | Product      | Planned  |
-| 002 | -          | [License Selection](./002-license.md)          | Strategy     | Planned  |
-| 003 | 2026-10-18 | [Writing Style](./003-writing-style.md)        | Social       | Proposed |
-| 004 | -          | [Project Name](./004-name.md)                  | Product      | Planned  |
-| 005 | 2026-10-18 | [Quality Factors](./005-quality-factors.md)    | Architecture | Proposed |
-| 006 | -          | [Requirements](./006-requirements.md)          | Product      | Planned  |
-| 007 | -          | [Architecture](./007-architecture.md)          | Architecture | Planned  |
-| 008 | 2026-10-18 | [AI Usage Policy](./008-ai-usage.md)           | Social       | Proposed |
+| ID  | Date       | Decision                                           | Type         | Status   |
+| :-- | :--------- | :------------------------------------------------- | :----------- | :------- |
+| 000 | 2026-10-03 | [Template](./000-template.md)                      | -            | Accepted |
+| 001 | -          | [Project Idea and Scope](./001-idea.md)            | Product      | Planned  |
+| 002 | -          | [License Selection](./002-license.md)              | Strategy     | Planned  |
+| 003 | -          | [Writing Style](./003-writing-style.md)            | Social       | Planned  |
+| 004 | -          | [Project Name](./004-name.md)                      | Product      | Planned  |
+| 005 | -          | [Quality Factors](./005-quality-factors.md)        | Architecture | Planned  |
+| 006 | -          | [Requirements](./006-requirements.md)              | Product      | Planned  |
+| 007 | -          | [Architecture](./007-architecture.md)              | Architecture | Planned  |
+| 008 | -          | [AI Usage Policy](./008-ai-usage.md)               | Social       | Proposed |
 | 009 | -          | [Visual Identity and UI](./009-visual-identity.md) | Design       | Planned  |
-| 010 | -          | [UX Paradigm and Flows](./010-ux-paradigm.md)   | Design       | Planned  |
+| 010 | -          | [UX Paradigm and Flows](./010-ux-paradigm.md)      | Design       | Planned  |
 
 <!--
 For LLMs, agents, and contributors: not every Recorded Decision is needed for every project. For example, CLI libraries do not need UI design records; mark inapplicable records as Rejected after confirming with the user.
