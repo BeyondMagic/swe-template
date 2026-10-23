@@ -25,7 +25,7 @@ These measures track development cadence and code volume changes across the proj
 Measures the number of commits submitted by each contributor across successive milestones or time intervals.
 
 ```mermaid
---8<-- "commit-velocity.mmd"
+--8<-- "management/commit-velocity.mmd"
 ```
 
 <span class="md-typeset-planned">Placeholder chart: replace with project-specific commit series per contributor.</span>
@@ -35,7 +35,7 @@ Measures the number of commits submitted by each contributor across successive m
 Measures the volume of new lines introduced by each author over the observation period. Spikes in additions often coincide with initial feature scaffolding.
 
 ```mermaid
---8<-- "code-additions.mmd"
+--8<-- "management/code-additions.mmd"
 ```
 
 <span class="md-typeset-planned">Placeholder chart: replace with lines added per contributor extracted from version control.</span>
@@ -45,7 +45,7 @@ Measures the volume of new lines introduced by each author over the observation 
 Measures lines removed by each author. Consistent deletions alongside additions indicate refactoring and technical debt reduction rather than pure accretion.
 
 ```mermaid
---8<-- "code-deletions.mmd"
+--8<-- "management/code-deletions.mmd"
 ```
 
 <span class="md-typeset-planned">Placeholder chart: replace with lines deleted per contributor extracted from version control.</span>
@@ -59,7 +59,7 @@ This section monitors task distribution across contributors to ensure balanced o
 Measures the quantity of tasks or issue tickets assigned to each team member.
 
 ```mermaid
---8<-- "assigned-issues.mmd"
+--8<-- "management/assigned-issues.mmd"
 ```
 
 <span class="md-typeset-planned">Placeholder chart: replace with active or closed issue counts per contributor.</span>
