@@ -1,6 +1,6 @@
 [project]
 site_url = "https://beyondmagic.github.io/swe-template/"
-site_name = "swe-template"
+site_name = "SWE-Template"
 site_description = "A template for software projects with documentation of all kinds of decision-records."
 site_author = "João V. Farias"
 docs_dir = "content"
