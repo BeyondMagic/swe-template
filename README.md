@@ -13,6 +13,8 @@ Examples:
 
 ## Repository Structure
 
+- [`.template.json`](./.template.json): Template version manifest tracking upstream repository and managed scaffolding paths.
+- [`CHANGELOG.md`](./CHANGELOG.md): History of template releases and additions following Keep a Changelog.
 - [`AGENTS.md`](./AGENTS.md): Instructions, writing rules, glossary conventions, and workflow standards for AI coding agents and contributors.
 - [`.agents/skills/`](./.agents/skills/): Agent skills for requirements interviewing (`grill-me`) and clear technical writing (`humanizer`).
 - [`documentation/`](./documentation/): Zensical documentation site containing the project [Glossary](./documentation/content/glossary.md), [Decision Records](./documentation/content/decision-record/index.md), and [Feature Records](./documentation/content/feature-record/index.md).
@@ -31,3 +33,14 @@ Examples:
    cd documentation
    zensical build --clean
    ```
+
+## Checking Template Updates
+
+Consumer projects can check whether the template scaffolding is current:
+
+1. Inspect the installed version in `.template.json`.
+2. Compare with upstream releases:
+   ```sh
+   git ls-remote --tags https://github.com/BeyondMagic/template
+   ```
+3. Review [`CHANGELOG.md`](./CHANGELOG.md) and apply scaffolding updates according to the protocol in [`AGENTS.md`](./AGENTS.md).

@@ -51,3 +51,25 @@ chore(scope): update zensical configuration
 - Write in the imperative mood (`add`, `fix` instead of `added`, `fixes`).
 - Keep the commit header under 50 characters.
 - Mark breaking changes with `!` after the type/scope or `BREAKING CHANGE:` in the footer.
+
+## Template Versioning and Updates
+
+1. **Manifest File**: Consumer repositories retain a machine-readable [`.template.json`](./.template.json) at the root specifying the installed template version, upstream URL, and `managed_paths`.
+2. **Version History**: Review [`CHANGELOG.md`](./CHANGELOG.md) at the repository root to identify additions, deprecations, or fixes between template versions.
+3. **Checking for Updates**:
+   - Read the local version in `.template.json`.
+   - Query upstream release tags:
+     ```sh
+     git ls-remote --tags https://github.com/BeyondMagic/template
+     ```
+   - Compare the local version against the latest released tag.
+4. **Applying Template Updates**:
+   - Inspect differences strictly across `managed_paths` defined in `.template.json`:
+     ```sh
+     git fetch https://github.com/BeyondMagic/template tag <target-tag> --no-tags
+     git diff HEAD FETCH_HEAD -- <managed_paths>
+     ```
+   - Apply relevant scaffolding improvements (such as skill refinements, CI workflows, or CSS updates) into the project.
+   - Do NOT overwrite project-specific source code, custom documentation pages, or finalized decision records.
+   - Update `.template.json` with the new `version` and current `updated_at` date.
+   - Run `zensical build --clean` from `documentation/` to confirm zero warnings before committing changes.
