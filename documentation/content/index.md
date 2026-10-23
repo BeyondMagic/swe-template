@@ -12,11 +12,12 @@ This repository is a software engineering template built around structured docum
 
 ## Documentation Layout
 
-The documentation is divided into three functional areas:
+The documentation is divided into four functional areas:
 
 - **[Glossary](./glossary.md):** Canonical definitions for domain, architectural, and governance terminology. Terms defined here automatically generate tooltips and links across all pages through `zensical-glossary`.
 - **[Decision Record](./decision-record/index.md):** Architectural, design, product, operational, and social decisions. Each record documents context, technical constraints, considered alternatives, and consequences.
 - **[Feature Record](./feature-record/index.md):** Specifications for user-facing and internal features, including interaction flows, benchmarks, and implementation notes.
+- **[Metrics & Results](./management/metrics.md):** Quantitative measurement framework following ISO/IEC 15939 and PSM, tracking commit velocity, code churn, and task distribution.
 
 ## Workflow
 

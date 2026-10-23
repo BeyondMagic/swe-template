@@ -35,6 +35,16 @@ A structured commit message convention (type(scope): description) providing expl
 
 A software release versioning convention structured as MAJOR.MINOR.PATCH, distinguishing breaking API changes, backward-compatible features, and bug fixes.
 
+### Practical Software Measurement
+<!-- zensical-glossary-aliases: PSM -->
+
+An objective, information-driven measurement process designed to provide software project managers and engineers with actionable quantitative insights.
+
+### ISO/IEC 15939
+<!-- zensical-glossary-aliases: ISO 15939, ISO/IEC 15939:2017 -->
+
+An international standard defining software and systems engineering measurement processes, establishing a common measurement information model from information needs to indicators.
+
 ## Architecture and Modeling
 
 ### Data-Flow Diagram

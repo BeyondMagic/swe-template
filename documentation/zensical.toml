@@ -20,6 +20,7 @@ nav = [
   { "General" = [
       { "Introduction" = "index.md" },
       { "Glossary" = "glossary.md" },
+      { "Metrics & Results" = "management/metrics.md" },
   ]},
   { "Decision Record" = [
       { "General" = "decision-record/index.md" },
