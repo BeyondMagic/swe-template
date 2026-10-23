@@ -34,6 +34,7 @@ nav = [
       { "007: Architecture" = "decision-record/007-architecture.md" },
       { "008: AI Usage" = "decision-record/008-ai-usage.md" },
       { "009: Visual Identity" = "decision-record/009-visual-identity.md" },
+      { "010: UX Paradigm" = "decision-record/010-ux-paradigm.md" },
   ]},
   { "Features" = [
       { "General" = "feature-record/index.md" },

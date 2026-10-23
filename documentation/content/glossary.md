@@ -111,6 +111,33 @@ Algorithms, large language models, and automated tools used to generate source c
 
 An anti-pattern where a human blindly copy-pastes AI outputs or questions back and forth without understanding, reviewing, or taking responsibility for the content.
 
+## Design and User Experience
+
+### Intuitive
+<!-- zensical-glossary-aliases: intuitiveness, intuitive interface, intuitive design -->
+
+A heuristic judgment of system usability based on transferred domain knowledge. It describes a user's cognitive state when interface patterns and affordances match their prior mental models, minimizing learning energy.
+
+### Design System
+<!-- zensical-glossary-aliases: design system, design systems, UI design system -->
+
+A coordinated set of visual assets, reusable UI components, and design tokens that standardize user interface styling and construction across platforms.
+
+### Wordmark
+<!-- zensical-glossary-aliases: wordmark, wordmarks, logotype, logotypes -->
+
+A typographic rendering of a project or brand name, designed with specific font weights, kerning, and styling without standalone symbols.
+
+### Interaction Paradigm
+<!-- zensical-glossary-aliases: interaction paradigm, interaction paradigms, UX paradigm, UX paradigms -->
+
+The foundational conceptual model and grammar (such as point-and-click, modal editing, or command palettes) governing how users interact with a system.
+
+### Progressive Disclosure
+<!-- zensical-glossary-aliases: progressive disclosure -->
+
+An interaction design pattern sequencing information and actions from simple defaults to advanced controls to reduce initial cognitive load.
+
 ## Domain Terms
 
 ### Example Domain Term
