@@ -19,6 +19,7 @@ Examples:
 - [`.agents/skills/`](./.agents/skills/): Agent skills for requirements interviewing (`grill-me`) and clear technical writing (`humanizer`).
 - [`documentation/`](./documentation/): Zensical documentation site containing the project [Glossary](./documentation/content/glossary.md), [Decision Records](./documentation/content/decision-record/index.md), and [Feature Records](./documentation/content/feature-record/index.md).
 - `source/`: Root directory for project source code.
+- `tests/`: Root directory for automated unit, integration, and black-box test suites.
 
 ## Getting Started
 

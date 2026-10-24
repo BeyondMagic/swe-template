@@ -138,6 +138,33 @@ The foundational conceptual model and grammar (such as point-and-click, modal ed
 
 An interaction design pattern sequencing information and actions from simple defaults to advanced controls to reduce initial cognitive load.
 
+## Testing and Quality Assurance
+
+### Test Pyramid
+<!-- zensical-glossary-aliases: test pyramid, testing pyramid -->
+
+A testing framework advocating a broad base of fast unit tests, a middle layer of integration tests, and a narrow top of end-to-end tests.
+
+### White-Box Testing
+<!-- zensical-glossary-aliases: white-box testing, white box testing, structural testing -->
+
+A verification method where tests are designed with explicit visibility into internal module logic, branch conditions, and private structures.
+
+### Black-Box Testing
+<!-- zensical-glossary-aliases: black-box testing, black box testing, behavioral testing -->
+
+A verification method where functionality is evaluated strictly against external interfaces, public APIs, or CLI contracts without internal code visibility.
+
+### Continuous Integration
+<!-- zensical-glossary-aliases: CI, continuous integration -->
+
+The software engineering practice of automatically compiling, linting, and testing code whenever commits or pull requests are submitted.
+
+### Static Analysis
+<!-- zensical-glossary-aliases: static analysis, static code analysis, linter, linters -->
+
+The automated inspection of source code without execution to identify syntax flaws, potential runtime bugs, security issues, and style violations.
+
 ## Domain Terms
 
 ### Example Domain Term

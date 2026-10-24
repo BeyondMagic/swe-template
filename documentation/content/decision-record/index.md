@@ -21,6 +21,7 @@ Technical, architectural, product, and design decisions, along with the reasonin
 | 008 | -          | [AI Usage Policy](./008-ai-usage.md)               | Social       | Planned  |
 | 009 | -          | [Visual Identity and UI](./009-visual-identity.md) | Design       | Planned  |
 | 010 | -          | [UX Paradigm and Flows](./010-ux-paradigm.md)      | Design       | Planned  |
+| 011 | -          | [Testing Strategy](./011-testing-strategy.md)      | Operational  | Planned  |
 
 <!--
 For LLMs, agents, and contributors: not every Recorded Decision is needed for every project. For example, CLI libraries do not need UI design records; mark inapplicable records as Rejected after confirming with the user.

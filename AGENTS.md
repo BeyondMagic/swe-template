@@ -34,6 +34,13 @@
 3. Never commit secrets, personal environment files (`.env`), or build artifacts.
 4. When requirements or architectural boundaries are ambiguous, ask the developer before introducing new patterns or dependencies.
 
+### Verification and Testing Rules
+
+1. **Local Test Execution:** Before submitting code changes or opening pull requests, developers and coding agents MUST execute local quality checks (linting, formatting, type checking, and automated tests).
+2. **Zero-Warning Policy:** Linters, static analysis tools, and documentation builds (`zensical build --clean`) MUST complete with zero errors and zero warnings.
+3. **Regression Tests:** When resolving defects, introduce an automated test under `tests/` verifying the fix.
+4. **Test Organization:** Unit tests reside in `source/` or `tests/unit/`, while integration and boundary tests reside in `tests/integration/` per [011: Testing Strategy](./documentation/content/decision-record/011-testing-strategy.md).
+
 ### Commit Style
 
 Use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/):
