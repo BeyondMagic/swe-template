@@ -1,0 +1,12 @@
+:root {
+	--md-primary-fg-color: #90a836;
+	/* Your primary color hex */
+	--md-primary-fg-color--light: #90a836;
+	/* Lighter variant (optional) */
+	--md-primary-fg-color--dark: #A3C334;
+	/* Darker variant (optional) */
+	--md-accent-fg-color: #a3c334;
+	/* Your accent color hex */
+	--md-accent-fg-color--transparent: #a3c3341a;
+	/* Transparent accent for active tabs/hover */
+}
