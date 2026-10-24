@@ -22,7 +22,11 @@ nav = [
       { "Glossary" = "glossary.md" },
       { "Metrics & Results" = "management/metrics.md" },
   ]},
-  { "Decision Record" = [
+  { "Features" = [
+      { "General" = "feature-record/index.md" },
+      { "000: Template" = "feature-record/000-template.md" },
+  ]},
+    { "Decision Record" = [
       { "General" = "decision-record/index.md" },
       { "000: Template" = "decision-record/000-template.md" },
       { "001: Idea" = "decision-record/001-idea.md" },
@@ -37,10 +41,6 @@ nav = [
       { "010: UX Paradigm" = "decision-record/010-ux-paradigm.md" },
       { "011: Testing Strategy" = "decision-record/011-testing-strategy.md" },
       { "012: CI/CD & Tooling" = "decision-record/012-ci-cd-and-tooling.md" },
-  ]},
-  { "Features" = [
-      { "General" = "feature-record/index.md" },
-      { "000: Template" = "feature-record/000-template.md" },
   ]},
 ]
 
