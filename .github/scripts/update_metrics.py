@@ -145,6 +145,9 @@ def calculate_upper_bound(values, min_bound=10):
     return ((max_val // 200) + 1) * 200
 
 
+MERMAID_INIT = '%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#e91e63, #2563eb"}}}}%%\n'
+
+
 def render_timeline_chart(title: str, y_label: str, weeks: list, series_by_author: dict) -> str:
     """Format Mermaid xychart-beta for timeline metrics."""
     x_labels = [f'"{w}"' for w in weeks]
@@ -160,6 +163,7 @@ def render_timeline_chart(title: str, y_label: str, weeks: list, series_by_autho
     max_bound = calculate_upper_bound(all_vals)
 
     chart = (
+        MERMAID_INIT +
         f'xychart-beta\n'
         f'    title "{title}"\n'
         f'    x-axis {x_axis_str}\n'
@@ -170,17 +174,24 @@ def render_timeline_chart(title: str, y_label: str, weeks: list, series_by_autho
 
 
 def render_bar_chart(title: str, y_label: str, counts_by_author: dict) -> str:
-    """Format Mermaid xychart-beta for categorical bar charts."""
+    """Format Mermaid xychart-beta with dedicated series per contributor for distinct colors."""
     x_labels = [f'"{author}"' for author in TRACKED_AUTHORS]
     vals = [counts_by_author.get(author, 0) for author in TRACKED_AUTHORS]
     max_bound = calculate_upper_bound(vals, min_bound=5)
 
+    bar_lines = []
+    for i, author in enumerate(TRACKED_AUTHORS):
+        author_val = counts_by_author.get(author, 0)
+        slot_vals = [author_val if j == i else 0 for j in range(len(TRACKED_AUTHORS))]
+        bar_lines.append(f'    bar [{", ".join(str(v) for v in slot_vals)}]')
+
     chart = (
+        MERMAID_INIT +
         f'xychart-beta\n'
         f'    title "{title}"\n'
         f'    x-axis [{", ".join(x_labels)}]\n'
         f'    y-axis "{y_label}" 0 --> {max_bound}\n'
-        f'    bar [{", ".join(str(v) for v in vals)}]'
+        + "\n".join(bar_lines)
     )
     return chart
 
