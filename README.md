@@ -26,17 +26,17 @@ Examples:
 ### 1. Create the Repository
 
 **Option A (GitHub Web - Recommended):**
-Click the **Use this template** button on the [BeyondMagic/template](https://github.com/BeyondMagic/template) repository page and select **Create a new repository**. This generates a fresh repository without inheriting upstream template commit history.
+Click the **Use this template** button on the [BeyondMagic/swe-template](https://github.com/BeyondMagic/swe-template) repository page and select **Create a new repository**. This generates a fresh repository without inheriting upstream template commit history.
 
 **Option B (GitHub CLI):**
 ```sh
-gh repo create <project-name> --template BeyondMagic/template --public --clone
+gh repo create <project-name> --template BeyondMagic/swe-template --public --clone
 cd <project-name>
 ```
 
 **Option C (Git Clone Fallback):**
 ```sh
-git clone --depth=1 https://github.com/BeyondMagic/template.git <project-name>
+git clone --depth=1 https://github.com/BeyondMagic/swe-template.git <project-name>
 cd <project-name>
 rm -rf .git && git init
 ```
@@ -85,6 +85,6 @@ Consumer projects can check whether the template scaffolding is current:
 1. Inspect the installed version in `.template.json`.
 2. Compare with upstream releases:
    ```sh
-   git ls-remote --tags https://github.com/BeyondMagic/template
+   git ls-remote --tags https://github.com/BeyondMagic/swe-template
    ```
 3. Review [`CHANGELOG.md`](./CHANGELOG.md) and apply scaffolding updates according to the protocol in [`AGENTS.md`](./AGENTS.md).
